@@ -31,3 +31,33 @@ El objetivo de la aplicación es facilitar el seguimiento y análisis de estrell
 
 ## Nota obtenida
 9.9 / 10
+
+## Mejoras que implementaría hoy
+
+Este proyecto fue desarrollado durante el Grado Superior, por lo que actualmente implementaría varias mejoras basadas en los conocimientos adquiridos posteriormente en desarrollo seguro y ciberseguridad:
+
+- 🔐 **Seguridad en autenticación**
+  - Implementación de hashing de contraseñas utilizando `bcrypt` o `Argon2`.
+  - Mejora del sistema de sesiones para evitar fijación o secuestro de sesión.
+
+- 🛡️ **Protección contra ataques web**
+  - Prevención de inyección SQL mediante consultas preparadas en todos los casos.
+  - Protección contra XSS (Cross-Site Scripting) mediante sanitización de entradas.
+  - Implementación de tokens CSRF en formularios.
+
+- 🔑 **Gestión segura de credenciales**
+  - Separación de la configuración en variables de entorno (`.env`).
+  - Eliminación de credenciales hardcodeadas en el código fuente.
+
+- 📁 **Gestión de archivos**
+  - Validación estricta de archivos subidos (tipo, tamaño y contenido).
+  - Almacenamiento seguro de imágenes fuera del directorio público cuando sea posible.
+
+- ⚙️ **Arquitectura y mantenimiento**
+  - Separación del código en capas (MVC o estructura modular).
+  - Mejora de la organización del backend para facilitar escalabilidad.
+  - Implementación de logging para auditoría de acciones importantes.
+
+- 🚀 **Mejoras de rendimiento y experiencia**
+  - Optimización de consultas a base de datos.
+  - Mejora de la interfaz de usuario para mayor usabilidad y accesibilidad.

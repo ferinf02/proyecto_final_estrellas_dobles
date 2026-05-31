@@ -47,7 +47,6 @@ Este proyecto fue desarrollado durante el Grado Superior, por lo que actualmente
 
 - 🔑 **Gestión segura de credenciales**
   - Separación de la configuración en variables de entorno (`.env`).
-  - Eliminación de credenciales hardcodeadas en el código fuente.
 
 - 📁 **Gestión de archivos**
   - Validación estricta de archivos subidos (tipo, tamaño y contenido).

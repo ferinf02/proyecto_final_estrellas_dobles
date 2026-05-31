@@ -26,8 +26,8 @@ El objetivo de la aplicación es facilitar el seguimiento y análisis de estrell
 - Visualización de imágenes y resultados
 
 ## Material adicional
-- [Documentación PDF](/documentacion/documentacion_proyecto.pdf)
-- [Presentación PDF](/documentacion/Estrellas_dobles.pdf)
+- [Documentación PDF](documentacion_proyecto.pdf)
+- [Presentación PDF](Estrellas_dobles.pdf)
 
 ## Nota obtenida
 9.9 / 10

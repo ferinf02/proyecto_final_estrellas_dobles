@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'estrellas dobles', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --bg-color: #fff;
+    --text-color: #222327;
+    --main-color: #0d68a5;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 28px 12%;
+    transition: all .50s ease;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    color: var(--main-color);
+    font-size: 28px;
+    margin-right: 3px;
+}
+
+.logo span {
+    color: var(--text-color);
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50 ease;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+}
+
+.navbar a.active {
+    color: var(--main-color);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main a {
+    margin-right: 25px;
+    margin-left: 10px;
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50 ease;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user i {
+    color: var(--main-color);
+    font-size: 28px;
+    margin-right: 7px;
+}
+
+.main a:hover {
+    color: var(--main-color);
+}
+
+#menu-icon {
+    font-size: 35px;
+    color: var(--text-color);
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+
+@media (max-width: 1280px) {
+    nav {
+        padding: 14px 2px;
+        transition: .2s;
+    }
+
+    .navbar a {
+        padding: 5px 0;
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width: 1090px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 270px;
+        height: 29vh;
+        background-color: var(--main-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+        transition: all .50s ease;
+    }
+
+    .navbar a:hover {
+        color: var(--text-color);
+        transform: translateY(5px);
+    }
+
+    .navbar a.active {
+        color: var(--text-color);
+    }
+
+    .navbar.open {
+        right: 2%;
+    }
+}
+.cuerpo{
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 35px;
+    box-shadow: 5px 5px 5px 5px rgba(3, 32, 51, .8);
+    margin-bottom: 30px;
+}
+.tit_form{
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    display: block;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
+    margin-bottom: 15px;
+}
+.form_subd{
+    display: block;
+    justify-content: center;
+}
+.ct{
+    width: 48%;
+    display: inline-block;
+    margin: 10px;
+}
+.ct label, .ct input{
+    display: inline-block;
+    vertical-align: middle; /* Esto alinea verticalmente los elementos */
+}
+.ct label{
+    width: 100%;
+}
+.ct input{
+    display: inline-block;
+    width: 100%; /* Esto establece el ancho del input o textarea para ajustarlo al contenedor */
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.enviar{
+    width: 100px;
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    border-radius: 35px;
+    padding: 10px;
+    margin-left: 47%;
+    margin-bottom: 15px;
+}
+.publico{
+    margin-left: 10px;
+}
